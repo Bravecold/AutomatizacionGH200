@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Remedios Homeopáticos - Naturalia</title>
+	<style>
+		body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:0;color:#333}
+		header{background:#e8f5e9;padding:20px;text-align:center}
+		.container{max-width:900px;margin:20px auto;padding:0 15px}
+		.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+		.card{border:1px solid #ddd;border-radius:8px;padding:12px;background:#fff}
+		.card h3{margin:8px 0}
+		footer{text-align:center;padding:16px;color:#666;font-size:14px}
+		.cta{display:inline-block;margin-top:10px;padding:8px 12px;background:#4caf50;color:#fff;border-radius:6px;text-decoration:none}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Remedios Homeopáticos Naturalia</h1>
+		<p>Soluciones naturales para tu bienestar diario</p>
+	</header>
+
+	<main class="container">
+		<section>
+			<h2>Productos destacados</h2>
+			<div class="grid">
+				<article class="card">
+					<h3>Arnica 30C</h3>
+					<p>Alivio para golpes, moretones y dolor muscular.</p>
+					<a class="cta" href="#">Ver producto</a>
+				</article>
+				<article class="card">
+					<h3>Nux Vomica 30C</h3>
+					<p>Apoya la digestión y el malestar por excesos.</p>
+					<a class="cta" href="#">Ver producto</a>
+				</article>
+				<article class="card">
+					<h3>Ignatia 30C</h3>
+					<p>Para estados de ansiedad leve y estrés emocional.</p>
+					<a class="cta" href="#">Ver producto</a>
+				</article>
+			</div>
+		</section>
+
+		<section style="margin-top:24px">
+			<h2>Sobre nosotros</h2>
+			<p>En Naturalia ofrecemos remedios homeopáticos de calidad, formulados cuidadosamente y orientados al bienestar natural. Consulta con un profesional de la salud antes de usar cualquier producto.</p>
+		</section>
+
+		<section style="margin-top:24px">
+			<h2>Contacto</h2>
+			<p>Email: contacto@naturalia.example | Tel: +34 600 000 000</p>
+		</section>
+	</main>
+
+	<footer>
+		© 2026 Naturalia - Productos homeopáticos. Todos los derechos reservados.
+	</footer>
+</body>
+</html>
